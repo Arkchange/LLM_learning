@@ -21,7 +21,7 @@ chunks = splitter.split_documents(document)
 chunks
 
 from huggingface_hub import login
-login(token="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")
+login(token="TOKEN")
 
 embeddind_model = HuggingFaceBgeEmbeddings(model_name = "all-MiniLM-L6-v2")
 
